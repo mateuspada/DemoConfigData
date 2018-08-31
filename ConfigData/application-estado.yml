@@ -1,0 +1,13 @@
+---
+# Data source properties
+spring:
+  datasource:
+    platform: postgres
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/aplicacao_financeira_dev
+  database.driverClassName: org.postgresql.Driver
+  jpa:
+    database: POSTGRESQL
+    hibernate.ddl-auto: update  
+    show-sql: true
