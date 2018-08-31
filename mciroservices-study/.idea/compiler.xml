@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="commmon-eureka-server" />
         <module name="common-config-server" />
+        <module name="microservice-estado" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AplicacaoFinanceiraSpringBoot" target="1.8" />
       <module name="commmon-eureka-server" target="1.8" />
       <module name="common-config-server" target="1.8" />
+      <module name="microservice-estado" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
