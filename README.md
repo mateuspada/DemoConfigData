@@ -12,3 +12,4 @@ Tecnologias utilizadas:
  - Spring cloud netflix feign;
  - Spring cloud netflix hystrix;
  - Spring cloud zuul.
+
